@@ -1,38 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Pagina Pessoal Gabriely </title>
-  </head>
-  <body>
-    <head>
-      <h1> Gabriely Borba </h1>
-      <nav>
-        <ul>
-          <li><a href="sobre"> Sobre mim</a></li>
-          <li><a href="projetos">Projetos </a></li>
-          <li><a href="Contato">Contato </a></li>
-        </ul>
-      </nav>
-    </head>
+<head>
+  <Table>Pagina pessoal Gabriely</Table>
+</head>
+<style>
+  {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  <body>{
+    font-family:arial,sans-serif;
+    background-color:#f4f4f4;
+    color:333;
+    line-height:1.6;
+    padding:20px;
+    }
+    header{
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align:center;
 
-    <section id="sobre">
-      <h2> Sobre Mim</h2>
-      <p> Sou uma menina que tem 14 anos, adoro saber sobre carreta/ caminhao, gosto de estudar, gosto de ir para o interior, amo estar com minha familia.Cuido da minha irma.Pretendo ser o orgulho da minha familia.</p>
-    </section>
 
-    <section id="Projetos">
-      <h2> Projetos</h2>
+    }
+    header h1{
+      margin-bottom:10px;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li {
+  display:inline;
+  margin:0px;
+
+
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+section{
+  margin:20px 0;
+}
+section #sobre,
+section#projetos,
+section#contato {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba ( 0. 0. 0. 1);
+}
+footer{
+  text-aling: center;
+  margin-top: 20px;
+}
+  </style>
+  <header>
+    <h1> Gabriely Borba</h1>
+     <nav>
       <ul>
-        <li>Projeto 01: <a href="#">Descriçao do Projeto 1 </a></li>
-        <li> Projeto 02: <a href="#">DEscricao do Projeto 2 </a></li>
+      <li><a href="#sobre">Sobre mim</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contatos</a></li>
       </ul>
-      <section id="Contato">
-        <h2> Contato </h2>
-        <p> Entre em contato comigo via <a href="mailto: gabriely_borba@estudante.sesisenai.org.br">gabriely_borba@estudante.sesisenai.org.br</a>.</p>
+   </nav>
+  </header>
+   <section id="sobre">
+    <h2>sobre mim</h2>
+    <P>Eu tenho 14 anos, tenho uma irma mais nova. Adoro saber sobre caminhao e carreta. Quero ser o orgulho da minha familia.</P>
+   </section>
 
-    </section>
-    <footer>
-      <p>&copy;@2024- Gabriely Borba </p>
-    </footer>
-  </body>
+
+   <section id="projetos">
+    <h2>projetos</h2>
+    <ul>
+      <li>projetos 1: <a href="#">descrição do progeto 1</a></li>
+      <li>projetos 2: <a href="#">descrição do progeto 2</a></li>
+    </ul>
+   </section>
+
+
+   <section id="contato">
+    <h2>contato</h2>
+    <p>Entre em contato comigo via <a href="gabriely_borba@estudante.sesisenai.org.br"> gabriely_borba@estudante.sesisenai.org.br</a>.</p>
+   </section>
+
+
+   <footer>
+    <p>&copy; @2024 - Gabriely Borba</p>
+</body>
 </html>
+
+
